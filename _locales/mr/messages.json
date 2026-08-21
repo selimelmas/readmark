@@ -1,0 +1,18 @@
+{
+    "appName":  {
+                    "message":  "Readmark",
+                    "description":  "Application name"
+                },
+    "appDescription":  {
+                           "message":  "Chromium साठी किमान वाचन सूची.",
+                           "description":  "Application description"
+                       },
+    "shortDesc":  {
+                      "message":  "मराठी",
+                      "description":  "Language name"
+                  },
+    "commandAddTab":  {
+                          "message":  "Save current tab to Readmark",
+                          "description":  "Keyboard shortcut command to add current tab"
+                      }
+}

@@ -1,0 +1,18 @@
+{
+    "appName":  {
+                    "message":  "Readmark",
+                    "description":  "Application name"
+                },
+    "appDescription":  {
+                           "message":  "Chromium için ultra hafif, gizlilik odaklı ve şık Okuma Listesi.",
+                           "description":  "Application description"
+                       },
+    "shortDesc":  {
+                      "message":  "Türkçe",
+                      "description":  "Language name"
+                  },
+    "commandAddTab":  {
+                          "message":  "Mevcut sekmeyi Readmark\u0027a kaydet",
+                          "description":  "Keyboard shortcut command to add current tab"
+                      }
+}

@@ -1,0 +1,18 @@
+{
+    "appName":  {
+                    "message":  "Readmark",
+                    "description":  "Application name"
+                },
+    "appDescription":  {
+                           "message":  "Минималистичный список для чтения с заботой о приватности для Chromium.",
+                           "description":  "Application description"
+                       },
+    "shortDesc":  {
+                      "message":  "русский",
+                      "description":  "Language name"
+                  },
+    "commandAddTab":  {
+                          "message":  "Сохранить текущую вкладку в Readmark",
+                          "description":  "Keyboard shortcut command to add current tab"
+                      }
+}

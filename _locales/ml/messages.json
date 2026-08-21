@@ -1,0 +1,18 @@
+{
+    "appName":  {
+                    "message":  "Readmark",
+                    "description":  "Application name"
+                },
+    "appDescription":  {
+                           "message":  "Chromium-നായുള്ള മിനിമലിസ്റ്റിക് വായനാ പട്ടിക.",
+                           "description":  "Application description"
+                       },
+    "shortDesc":  {
+                      "message":  "മലയാളം",
+                      "description":  "Language name"
+                  },
+    "commandAddTab":  {
+                          "message":  "Save current tab to Readmark",
+                          "description":  "Keyboard shortcut command to add current tab"
+                      }
+}

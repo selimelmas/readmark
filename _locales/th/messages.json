@@ -1,0 +1,18 @@
+{
+    "appName":  {
+                    "message":  "Readmark",
+                    "description":  "Application name"
+                },
+    "appDescription":  {
+                           "message":  "รายการอ่านที่เรียบง่ายและเป็นส่วนตัวสำหรับ Chromium",
+                           "description":  "Application description"
+                       },
+    "shortDesc":  {
+                      "message":  "ไทย",
+                      "description":  "Language name"
+                  },
+    "commandAddTab":  {
+                          "message":  "Save current tab to Readmark",
+                          "description":  "Keyboard shortcut command to add current tab"
+                      }
+}

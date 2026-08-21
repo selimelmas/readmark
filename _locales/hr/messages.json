@@ -1,0 +1,18 @@
+{
+    "appName":  {
+                    "message":  "Readmark",
+                    "description":  "Application name"
+                },
+    "appDescription":  {
+                           "message":  "Minimalistički popis za čitanje usmjeren na privatnost za Chromium.",
+                           "description":  "Application description"
+                       },
+    "shortDesc":  {
+                      "message":  "hrvatski",
+                      "description":  "Language name"
+                  },
+    "commandAddTab":  {
+                          "message":  "Save current tab to Readmark",
+                          "description":  "Keyboard shortcut command to add current tab"
+                      }
+}

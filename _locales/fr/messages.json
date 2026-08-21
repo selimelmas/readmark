@@ -1,0 +1,18 @@
+{
+    "appName":  {
+                    "message":  "Readmark",
+                    "description":  "Application name"
+                },
+    "appDescription":  {
+                           "message":  "Liste de lecture minimaliste et respectueuse de la vie privée pour Chromium.",
+                           "description":  "Application description"
+                       },
+    "shortDesc":  {
+                      "message":  "français",
+                      "description":  "Language name"
+                  },
+    "commandAddTab":  {
+                          "message":  "Enregistrer l\u0027onglet actif dans Readmark",
+                          "description":  "Keyboard shortcut command to add current tab"
+                      }
+}

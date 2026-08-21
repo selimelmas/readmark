@@ -1,0 +1,18 @@
+{
+    "appName":  {
+                    "message":  "Readmark",
+                    "description":  "Application name"
+                },
+    "appDescription":  {
+                           "message":  "Elenco di lettura minimalista e incentrato sulla privacy per Chromium.",
+                           "description":  "Application description"
+                       },
+    "shortDesc":  {
+                      "message":  "italiano",
+                      "description":  "Language name"
+                  },
+    "commandAddTab":  {
+                          "message":  "Salva la scheda corrente in Readmark",
+                          "description":  "Keyboard shortcut command to add current tab"
+                      }
+}

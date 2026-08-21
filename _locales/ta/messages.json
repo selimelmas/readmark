@@ -1,0 +1,18 @@
+{
+    "appName":  {
+                    "message":  "Readmark",
+                    "description":  "Application name"
+                },
+    "appDescription":  {
+                           "message":  "Chromium-க்கான எளிய வாசிப்புப் பட்டியல்.",
+                           "description":  "Application description"
+                       },
+    "shortDesc":  {
+                      "message":  "தமிழ்",
+                      "description":  "Language name"
+                  },
+    "commandAddTab":  {
+                          "message":  "Save current tab to Readmark",
+                          "description":  "Keyboard shortcut command to add current tab"
+                      }
+}

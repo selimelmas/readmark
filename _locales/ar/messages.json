@@ -1,0 +1,18 @@
+{
+    "appName":  {
+                    "message":  "Readmark",
+                    "description":  "Application name"
+                },
+    "appDescription":  {
+                           "message":  "قائمة قراءة بسيطة وخفيفة تركز على الخصوصية لمتصفحات Chromium.",
+                           "description":  "Application description"
+                       },
+    "shortDesc":  {
+                      "message":  "العربية",
+                      "description":  "Language name"
+                  },
+    "commandAddTab":  {
+                          "message":  "حفظ علامة التبويب الحالية في Readmark",
+                          "description":  "Keyboard shortcut command to add current tab"
+                      }
+}

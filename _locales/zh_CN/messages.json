@@ -1,0 +1,18 @@
+{
+    "appName":  {
+                    "message":  "Readmark",
+                    "description":  "Application name"
+                },
+    "appDescription":  {
+                           "message":  "专为 Chromium 打造的超轻量、注重隐私的极简阅读清单扩展。",
+                           "description":  "Application description"
+                       },
+    "shortDesc":  {
+                      "message":  "中文（中国）",
+                      "description":  "Language name"
+                  },
+    "commandAddTab":  {
+                          "message":  "将当前标签页保存至 Readmark",
+                          "description":  "Keyboard shortcut command to add current tab"
+                      }
+}

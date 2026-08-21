@@ -1,0 +1,18 @@
+{
+    "appName":  {
+                    "message":  "Readmark",
+                    "description":  "Application name"
+                },
+    "appDescription":  {
+                           "message":  "Minimalistinen ja yksityisyyttä kunnioittava lukulista Chromiumille.",
+                           "description":  "Application description"
+                       },
+    "shortDesc":  {
+                      "message":  "suomi",
+                      "description":  "Language name"
+                  },
+    "commandAddTab":  {
+                          "message":  "Save current tab to Readmark",
+                          "description":  "Keyboard shortcut command to add current tab"
+                      }
+}

@@ -1,0 +1,18 @@
+{
+    "appName":  {
+                    "message":  "Readmark",
+                    "description":  "Application name"
+                },
+    "appDescription":  {
+                           "message":  "Daftar bacaan minimalis dan mengutamakan privasi untuk Chromium.",
+                           "description":  "Application description"
+                       },
+    "shortDesc":  {
+                      "message":  "Indonesia",
+                      "description":  "Language name"
+                  },
+    "commandAddTab":  {
+                          "message":  "Simpan tab saat ini ke Readmark",
+                          "description":  "Keyboard shortcut command to add current tab"
+                      }
+}

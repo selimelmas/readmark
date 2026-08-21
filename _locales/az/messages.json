@@ -1,0 +1,18 @@
+{
+    "appName":  {
+                    "message":  "Readmark",
+                    "description":  "Application name"
+                },
+    "appDescription":  {
+                           "message":  "Chromium üçün minimal və məxfiliyə önəm verən oxu siyahısı.",
+                           "description":  "Application description"
+                       },
+    "shortDesc":  {
+                      "message":  "azərbaycan",
+                      "description":  "Language name"
+                  },
+    "commandAddTab":  {
+                          "message":  "Save current tab to Readmark",
+                          "description":  "Keyboard shortcut command to add current tab"
+                      }
+}

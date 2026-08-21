@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>readmark - Settings</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="options-layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-logo" id="brandLogo"></div>
+        <div>
+          <h2 class="brand-title">read<span class="brand-accent">mark</span><span class="brand-dot">.</span></h2>
+          <span class="brand-version" id="versionBadge">v1.2.0</span>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <button class="nav-item active" data-tab="general">
+          <span class="nav-icon" id="navIconGeneral"></span>
+          <span data-i18n="tabGeneral">Genel</span>
+        </button>
+        <button class="nav-item" data-tab="backup">
+          <span class="nav-icon" id="navIconBackup"></span>
+          <span data-i18n="tabBackup">Yedekleme & Dışa Aktarma</span>
+        </button>
+        <button class="nav-item" data-tab="stats">
+          <span class="nav-icon" id="navIconStats"></span>
+          <span data-i18n="tabStats">İstatistikler</span>
+        </button>
+        <button class="nav-item" data-tab="about">
+          <span class="nav-icon" id="navIconAbout"></span>
+          <span data-i18n="tabAbout">Hakkında</span>
+        </button>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Toast Notification -->
+      <div id="toast" class="toast hidden"></div>
+
+      <!-- In-App Confirmation Modal -->
+      <div id="confirmDialog" class="confirm-dialog hidden">
+        <div class="confirm-card">
+          <div class="confirm-text" id="confirmText"></div>
+          <div class="confirm-actions">
+            <button id="btnConfirmCancel" class="confirm-btn cancel" data-i18n="cancel"></button>
+            <button id="btnConfirmOk" class="confirm-btn confirm" data-i18n="confirm"></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab: General -->
+      <section class="tab-panel active" id="tab-general">
+        <div class="panel-header">
+          <h1 class="panel-title" data-i18n="tabGeneral">Genel Ayarlar</h1>
+          <p class="panel-desc" data-i18n="themeSubtitle">Arayüz temasını ve dilinizi özelleştirin.</p>
+        </div>
+
+        <!-- Theme Setting -->
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title" data-i18n="themeTitle">Tema Seçimi</h3>
+            <p class="card-desc" data-i18n="themeSubtitle">Arayüz temasını tarayıcınıza veya zevkinize göre ayarlayın.</p>
+          </div>
+          <div class="theme-options">
+            <label class="theme-card" data-theme-val="system">
+              <input type="radio" name="theme" value="system" checked>
+              <div class="theme-card-body">
+                <span class="theme-icon" id="themeIconSystem"></span>
+                <span class="theme-name" data-i18n="themeSystem">Sistem Varsayılanı</span>
+              </div>
+            </label>
+            <label class="theme-card" data-theme-val="light">
+              <input type="radio" name="theme" value="light">
+              <div class="theme-card-body">
+                <span class="theme-icon" id="themeIconLight"></span>
+                <span class="theme-name" data-i18n="themeLight">Açık Tema</span>
+              </div>
+            </label>
+            <label class="theme-card" data-theme-val="dark">
+              <input type="radio" name="theme" value="dark">
+              <div class="theme-card-body">
+                <span class="theme-icon" id="themeIconDark"></span>
+                <span class="theme-name" data-i18n="themeDark">Koyu Tema</span>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <!-- Language Setting -->
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title" data-i18n="langTitle">Dil Seçimi</h3>
+            <p class="card-desc" data-i18n="langSubtitle">Uygulama arayüz dilini belirleyin.</p>
+          </div>
+          <div class="form-group">
+            <select id="languageSelect" class="form-select">
+              <option value="system">🌐 Sistem Varsayılanı (Otomatik)</option>
+              <option value="de">🇩🇪 Deutsch</option>
+              <option value="en">🇺🇸 English</option>
+              <option value="en_GB">🇬🇧 English (United Kingdom)</option>
+              <option value="fil">🇵🇭 Filipino</option>
+              <option value="id">🇮🇩 Indonesia</option>
+              <option value="sw">🇰🇪 Kiswahili</option>
+              <option value="ms">🇲🇾 Melayu</option>
+              <option value="nl">🇳🇱 Nederlands</option>
+              <option value="vi">🇻🇳 Tiếng Việt</option>
+              <option value="tr">🇹🇷 Türkçe</option>
+              <option value="az">🇦🇿 azərbaycan</option>
+              <option value="ca">🇪🇸 català</option>
+              <option value="da">🇩🇰 dansk</option>
+              <option value="et">🇪🇪 eesti</option>
+              <option value="es">🇪🇸 español</option>
+              <option value="eu">🇪🇸 euskara</option>
+              <option value="fr">🇫🇷 français</option>
+              <option value="hr">🇭🇷 hrvatski</option>
+              <option value="it">🇮🇹 italiano</option>
+              <option value="lv">🇱🇻 latviešu</option>
+              <option value="lt">🇱🇹 lietuvių</option>
+              <option value="hu">🇭🇺 magyar</option>
+              <option value="nb">🇳🇴 norsk</option>
+              <option value="pl">🇵🇱 polski</option>
+              <option value="pt_BR">🇧🇷 português (Brasil)</option>
+              <option value="pt_PT">🇵🇹 português (Portugal)</option>
+              <option value="ro">🇷🇴 română</option>
+              <option value="sq">🇦🇱 shqip</option>
+              <option value="sk">🇸🇰 slovenčina</option>
+              <option value="sl">🇸🇮 slovenščina</option>
+              <option value="fi">🇫🇮 suomi</option>
+              <option value="sv">🇸🇪 svenska</option>
+              <option value="cs">🇨🇿 čeština</option>
+              <option value="el">🇬🇷 Ελληνικά</option>
+              <option value="bg">🇧🇬 български</option>
+              <option value="mk">🇲🇰 македонски</option>
+              <option value="ru">🇷🇺 русский</option>
+              <option value="sr">🇷🇸 српски</option>
+              <option value="uk">🇺🇦 українська</option>
+              <option value="hy">🇦🇲 հայերեն</option>
+              <option value="he">🇮🇱 עברית</option>
+              <option value="ur">🇵🇰 اردو</option>
+              <option value="ar">🇸🇦 العربية</option>
+              <option value="fa">🇮🇷 فارسی</option>
+              <option value="mr">🇮🇳 मराठी</option>
+              <option value="hi">🇮🇳 हिन्दी</option>
+              <option value="bn">🇧🇩 বাংলা</option>
+              <option value="pa">🇮🇳 ਪੰਜਾਬੀ</option>
+              <option value="gu">🇮🇳 ગુજરાતી</option>
+              <option value="ta">🇮🇳 தமிழ்</option>
+              <option value="te">🇮🇳 తెలుగు</option>
+              <option value="kn">🇮🇳 ಕನ್ನಡ</option>
+              <option value="ml">🇮🇳 മലയാളം</option>
+              <option value="si">🇱🇰 සිංහල</option>
+              <option value="th">🇹🇭 ไทย</option>
+              <option value="ka">🇬🇪 ქართული</option>
+              <option value="zh_CN">🇨🇳 中文（中国）</option>
+              <option value="zh_TW">🇹🇼 中文（台灣）</option>
+              <option value="ja">🇯🇵 日本語</option>
+              <option value="ko">🇰🇷 한국어</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Behavior Setting -->
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title" data-i18n="behaviorTitle">Davranış Ayarları</h3>
+          </div>
+          <div class="toggle-row">
+            <div>
+              <div class="toggle-label" data-i18n="showBadge">Eklenti simgesinde okunmamış sayaç rozetini göster</div>
+            </div>
+            <label class="switch">
+              <input type="checkbox" id="showBadgeCheckbox" checked>
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <div class="toggle-row mt-4">
+            <div>
+              <div class="toggle-label" data-i18n="autoMarkRead">Öğe açıldığında otomatik olarak okundu işaretle</div>
+            </div>
+            <label class="switch">
+              <input type="checkbox" id="autoMarkReadCheckbox">
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <div class="toggle-row mt-4">
+            <div>
+              <div class="toggle-label" data-i18n="enableContextMenu">Sağ tık (bağlam) menüsünü etkinleştir</div>
+            </div>
+            <label class="switch">
+              <input type="checkbox" id="enableContextMenuCheckbox" checked>
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab: Backup & Export -->
+      <section class="tab-panel" id="tab-backup">
+        <div class="panel-header">
+          <h1 class="panel-title" data-i18n="tabBackup">Yedekleme & Dışa Aktarma</h1>
+          <p class="panel-desc" data-i18n="exportSubtitle">Okuma listenizi farklı formatlarda dışa aktarın ve yedekleyin.</p>
+        </div>
+
+        <!-- Export Card -->
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title" data-i18n="exportTitle">Dışa Aktarma (Export)</h3>
+            <p class="card-desc" data-i18n="exportSubtitle">Okuma listenizi JSON, HTML veya Markdown olarak indirin.</p>
+          </div>
+          <div class="action-grid">
+            <button class="btn btn-outline" id="btnExportJson">
+              <span class="btn-icon" id="exportIconJson"></span>
+              <span data-i18n="exportJson">JSON Olarak İndir (Tam Yedek)</span>
+            </button>
+            <button class="btn btn-outline" id="btnExportHtml">
+              <span class="btn-icon" id="exportIconHtml"></span>
+              <span data-i18n="exportHtml">HTML Yer İmleri Olarak İndir (Tarayıcı Uyumlu)</span>
+            </button>
+            <button class="btn btn-outline" id="btnExportMd">
+              <span class="btn-icon" id="exportIconMd"></span>
+              <span data-i18n="exportMd">Markdown Olarak İndir</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Import Card -->
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title" data-i18n="importTitle">İçe Aktarma (Import)</h3>
+            <p class="card-desc" data-i18n="importSubtitle">Daha önce dışa aktardığınız JSON veya HTML yer imi dosyasını yükleyin.</p>
+          </div>
+          <div class="drop-zone" id="dropZone">
+            <span class="drop-zone-icon" id="importDropIcon"></span>
+            <p class="drop-zone-text" data-i18n="importButton">Dosya Seç veya Buraya Sürükle</p>
+            <span class="drop-zone-hint" data-i18n="importHint">.json veya .html dosyaları desteklenir</span>
+            <input type="file" id="fileInput" accept=".json,.html,.htm" class="file-input">
+          </div>
+        </div>
+
+        <!-- Danger Zone -->
+        <div class="card border-danger">
+          <div class="card-header">
+            <h3 class="card-title text-danger" data-i18n="dangerZone">Tehlikeli Bölge</h3>
+            <p class="card-desc" data-i18n="dangerSubtitle">Tüm kayıtları ve verileri kalıcı olarak sıfırlar.</p>
+          </div>
+          <button class="btn btn-danger" id="btnClearAllData" data-i18n="clearAllData">
+            Tüm Verileri Sıfırla
+          </button>
+        </div>
+      </section>
+
+      <!-- Tab: Statistics -->
+      <section class="tab-panel" id="tab-stats">
+        <div class="panel-header">
+          <h1 class="panel-title" data-i18n="statsTitle">Okuma İstatistikleri</h1>
+          <p class="panel-desc" data-i18n="statsSubtitle">Yerel okuma listesi kullanım özeti.</p>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-icon-wrap primary" id="statIconTotal"></div>
+            <div class="stat-info">
+              <span class="stat-value" id="statTotal">0</span>
+              <span class="stat-label" data-i18n="statsTotal">Toplam Kaydedilen</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon-wrap warning" id="statIconUnread"></div>
+            <div class="stat-info">
+              <span class="stat-value" id="statUnread">0</span>
+              <span class="stat-label" data-i18n="statsUnread">Okunmayı Bekleyen</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon-wrap success" id="statIconRead"></div>
+            <div class="stat-info">
+              <span class="stat-value" id="statRead">0</span>
+              <span class="stat-label" data-i18n="statsRead">Tamamlanan</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon-wrap star" id="statIconStarred"></div>
+            <div class="stat-info">
+              <span class="stat-value" id="statStarred">0</span>
+              <span class="stat-label" data-i18n="statsStarred">Favoriler</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mt-4">
+          <div class="card-header">
+            <h3 class="card-title" data-i18n="statsStorage">Depolama Alanı Kullanımı</h3>
+            <p class="card-desc" data-i18n="statsStorageDesc">Tüm veriler yerel olarak (chrome.storage.local) tarayıcınızda şifresiz ve gizli tutulur.</p>
+          </div>
+          <div class="storage-indicator">
+            <span class="storage-badge" id="statStorageBytes">0 KB</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab: About & License -->
+      <section class="tab-panel" id="tab-about">
+        <div class="panel-header">
+          <h1 class="panel-title" data-i18n="tabAbout">Hakkında</h1>
+          <p class="panel-desc" data-i18n="aboutSubtitle">Sürüm bilgileri, açık kaynak belgeleri ve lisanslar.</p>
+        </div>
+
+        <!-- About Card -->
+        <div class="card">
+          <div class="about-hero">
+            <div class="about-logo" id="aboutLogo"></div>
+            <div class="about-meta">
+              <h2 class="about-title">read<span class="brand-accent">mark</span><span class="brand-dot">.</span></h2>
+              <p class="about-subtitle" data-i18n="appTagline">Chromium için Minimal Okuma Listesi</p>
+              <div class="badge-row">
+                <span class="tag-pill" id="aboutVersionTag">v1.2.0</span>
+                <span class="tag-pill badge-primary">Manifest V3</span>
+                <span class="tag-pill badge-success">GNU GPLv3</span>
+              </div>
+            </div>
+          </div>
+          <p class="about-text" data-i18n="aboutDesc">
+            readmark, Chromium tabanlı tüm tarayıcılar (Chrome, Edge, Brave, Opera, Vivaldi vb.) için geliştirilmiş, ultra hafif, gizlilik odaklı ve yerel depolama kullanan açık kaynaklı bir okuma listesi eklentisidir.
+          </p>
+          <div class="links-row">
+            <a href="https://github.com/selimelmas/readmark" target="_blank" class="btn btn-outline" id="githubLink">
+              <span class="btn-icon" id="githubIcon"></span>
+              <span data-i18n="githubRepo">GitHub Deposu</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- License Card (GNU GPLv3) -->
+        <div class="card">
+          <div class="card-header flex-between">
+            <div>
+              <h3 class="card-title" data-i18n="licenseTitle">Lisans Bilgileri</h3>
+              <p class="card-desc" data-i18n="licenseDesc">GNU General Public License v3.0 (GPL-3.0)</p>
+            </div>
+            <button class="btn btn-sm btn-outline" id="btnCopyLicense">
+              <span class="btn-icon" id="copyIcon"></span>
+              <span data-i18n="copyLicense">Kopyala</span>
+            </button>
+          </div>
+          <div class="license-box">
+            <pre id="licenseText"></pre>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Scripts -->
+  <script src="../shared/icons.js"></script>
+  <script src="../shared/i18n.js"></script>
+  <script src="../shared/theme.js"></script>
+  <script src="../shared/utils.js"></script>
+  <script src="../shared/storage.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

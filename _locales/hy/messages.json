@@ -1,0 +1,18 @@
+{
+    "appName":  {
+                    "message":  "Readmark",
+                    "description":  "Application name"
+                },
+    "appDescription":  {
+                           "message":  "Մինիմալիստական ընթերցանության ցանկ Chromium-ի համար:",
+                           "description":  "Application description"
+                       },
+    "shortDesc":  {
+                      "message":  "հայերեն",
+                      "description":  "Language name"
+                  },
+    "commandAddTab":  {
+                          "message":  "Save current tab to Readmark",
+                          "description":  "Keyboard shortcut command to add current tab"
+                      }
+}

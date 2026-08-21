@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>readmark</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="brand">
+        <div class="brand-logo" id="brandLogo"></div>
+        <h1 class="brand-title">read<span class="brand-accent">mark</span><span class="brand-dot">.</span></h1>
+      </div>
+      <div class="header-actions">
+        <button id="btnSearchToggle" class="icon-btn" data-i18n-title="searchPlaceholder" aria-label="Search">
+          <!-- Search Icon injected by JS -->
+        </button>
+        <button id="btnSort" class="icon-btn" aria-label="Sort" title="Newest First">
+          <!-- Sort Icon injected by JS -->
+        </button>
+        <button id="btnAddCurrent" class="icon-btn primary" data-i18n-title="addCurrentTab" aria-label="Add current tab">
+          <!-- Plus Icon injected by JS -->
+        </button>
+        <button id="btnOpenOptions" class="icon-btn" data-i18n-title="settings" aria-label="Settings">
+          <!-- Settings Icon injected by JS -->
+        </button>
+      </div>
+    </header>
+
+    <!-- Collapsible Search Bar -->
+    <div class="search-bar hidden" id="searchBar">
+      <div class="search-input-wrapper">
+        <span class="search-icon" id="searchIcon"></span>
+        <input type="text" id="searchInput" class="search-input" data-i18n-placeholder="searchPlaceholder" placeholder="Listede ara..." list="allTagsDatalist">
+        <button id="btnClearSearch" class="icon-btn-sm hidden" aria-label="Clear search"></button>
+      </div>
+      <div class="search-tags-bar hidden" id="searchTagsBar"></div>
+      <datalist id="allTagsDatalist"></datalist>
+    </div>
+
+    <!-- Filter Pills -->
+    <nav class="filter-bar">
+      <button class="filter-chip active" data-filter="all">
+        <span data-i18n="all">Tümü</span>
+        <span class="badge" id="badgeAll">0</span>
+      </button>
+      <button class="filter-chip" data-filter="unread">
+        <span data-i18n="unread">Okunmamış</span>
+        <span class="badge" id="badgeUnread">0</span>
+      </button>
+      <button class="filter-chip" data-filter="read">
+        <span data-i18n="read">Okunmuş</span>
+        <span class="badge" id="badgeRead">0</span>
+      </button>
+      <button class="filter-chip" data-filter="starred">
+        <span data-i18n="starred">Favoriler</span>
+        <span class="badge" id="badgeStarred">0</span>
+      </button>
+    </nav>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="toast hidden"></div>
+
+    <!-- In-App Confirmation Modal (Top Center) -->
+    <div id="confirmDialog" class="confirm-dialog hidden">
+      <div class="confirm-card">
+        <div class="confirm-text" id="confirmText"></div>
+        <div class="confirm-actions">
+          <button id="btnConfirmCancel" class="confirm-btn cancel" data-i18n="cancel"></button>
+          <button id="btnConfirmOk" class="confirm-btn confirm" data-i18n="confirm"></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reading List -->
+    <main class="list-wrapper">
+      <ul class="items-list" id="itemsList">
+        <!-- Rendered dynamically -->
+      </ul>
+
+      <!-- Empty State -->
+      <div class="empty-state hidden" id="emptyState">
+        <div class="empty-icon" id="emptyIcon"></div>
+        <h3 class="empty-title" data-i18n="emptyTitle">Okuma listeniz boş</h3>
+        <p class="empty-subtitle" data-i18n="emptySubtitle">Yukarıdaki (+) butonuna tıklayarak geçerli sekmeyi listenize ekleyin.</p>
+      </div>
+    </main>
+
+    <!-- Footer Stats / Action -->
+    <footer class="app-footer">
+      <span class="footer-stats" id="footerStats">0 öğe</span>
+      <div class="footer-actions">
+        <button id="btnMarkAllRead" class="footer-action-btn hidden" data-i18n="markAllRead">Hepsini Okundu İşaretle</button>
+        <button id="btnClearCompleted" class="footer-action-btn hidden" data-i18n="clearCompleted">Okunanları Temizle</button>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="../shared/icons.js"></script>
+  <script src="../shared/i18n.js"></script>
+  <script src="../shared/theme.js"></script>
+  <script src="../shared/utils.js"></script>
+  <script src="../shared/storage.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

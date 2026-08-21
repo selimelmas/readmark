@@ -1,0 +1,18 @@
+{
+    "appName":  {
+                    "message":  "Readmark",
+                    "description":  "Application name"
+                },
+    "appDescription":  {
+                           "message":  "Lista de leitura minimalista e focada na privacidade para Chromium.",
+                           "description":  "Application description"
+                       },
+    "shortDesc":  {
+                      "message":  "português (Portugal)",
+                      "description":  "Language name"
+                  },
+    "commandAddTab":  {
+                          "message":  "Guardar separador atual no Readmark",
+                          "description":  "Keyboard shortcut command to add current tab"
+                      }
+}

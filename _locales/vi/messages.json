@@ -1,0 +1,18 @@
+{
+    "appName":  {
+                    "message":  "Readmark",
+                    "description":  "Application name"
+                },
+    "appDescription":  {
+                           "message":  "Danh sách đọc tối giản, bảo vệ quyền riêng tư cho Chromium.",
+                           "description":  "Application description"
+                       },
+    "shortDesc":  {
+                      "message":  "Tiếng Việt",
+                      "description":  "Language name"
+                  },
+    "commandAddTab":  {
+                          "message":  "Lưu tab hiện tại vào Readmark",
+                          "description":  "Keyboard shortcut command to add current tab"
+                      }
+}

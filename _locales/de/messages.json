@@ -1,0 +1,18 @@
+{
+    "appName":  {
+                    "message":  "Readmark",
+                    "description":  "Application name"
+                },
+    "appDescription":  {
+                           "message":  "Minimalistische und datenschutzfreundliche Leseliste für Chromium.",
+                           "description":  "Application description"
+                       },
+    "shortDesc":  {
+                      "message":  "Deutsch",
+                      "description":  "Language name"
+                  },
+    "commandAddTab":  {
+                          "message":  "Aktuellen Tab in Readmark speichern",
+                          "description":  "Keyboard shortcut command to add current tab"
+                      }
+}

@@ -1,0 +1,18 @@
+{
+    "appName":  {
+                    "message":  "Readmark",
+                    "description":  "Application name"
+                },
+    "appDescription":  {
+                           "message":  "Minimalistinis ir privatumą gerbiantis skaitymo sąrašas Chromium naršyklei.",
+                           "description":  "Application description"
+                       },
+    "shortDesc":  {
+                      "message":  "lietuvių",
+                      "description":  "Language name"
+                  },
+    "commandAddTab":  {
+                          "message":  "Save current tab to Readmark",
+                          "description":  "Keyboard shortcut command to add current tab"
+                      }
+}
