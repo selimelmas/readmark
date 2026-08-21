@@ -1,0 +1,22 @@
+{
+  "appName": {
+    "message": "Readmark",
+    "description": "拡張機能の名前。"
+  },
+  "appDescription": {
+    "message": "Chromiumブラウザ向けの超軽量・プライバシー重視のローカルリーディングリスト（多言語対応）。",
+    "description": "拡張機能の説明。"
+  },
+  "commandAddTab": {
+    "message": "現在のタブをリーディングリストに追加",
+    "description": "ショートカットキーの説明。"
+  },
+  "menuSavePage": {
+    "message": "ページを保存",
+    "description": "コンテキストメニューのページ保存タイトル。"
+  },
+  "menuSaveLink": {
+    "message": "リンクを保存",
+    "description": "コンテキストメニューのリンク保存タイトル。"
+  }
+}

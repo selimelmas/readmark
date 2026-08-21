@@ -1,0 +1,22 @@
+{
+  "appName": {
+    "message": "Readmark",
+    "description": "Nombre de la extensión."
+  },
+  "appDescription": {
+    "message": "Lista de lectura ultra minimalista y privada con almacenamiento local y soporte multilingüe para navegadores Chromium.",
+    "description": "Descripción de la extensión."
+  },
+  "commandAddTab": {
+    "message": "Añadir la pestaña actual a la lista de lectura",
+    "description": "Descripción del atajo de teclado."
+  },
+  "menuSavePage": {
+    "message": "Guardar página",
+    "description": "Título del menú contextual para guardar la página."
+  },
+  "menuSaveLink": {
+    "message": "Guardar enlace",
+    "description": "Título del menú contextual para guardar un enlace."
+  }
+}

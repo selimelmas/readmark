@@ -1,0 +1,22 @@
+{
+  "appName": {
+    "message": "Readmark",
+    "description": "Tên tiện ích mở rộng."
+  },
+  "appDescription": {
+    "message": "Danh sách đọc cực kỳ tối giản, bảo vệ quyền riêng tư với bộ nhớ cục bộ và hỗ trợ đa ngôn ngữ cho trình duyệt Chromium.",
+    "description": "Mô tả tiện ích mở rộng."
+  },
+  "commandAddTab": {
+    "message": "Thêm tab hiện tại vào danh sách đọc",
+    "description": "Mô tả phím tắt."
+  },
+  "menuSavePage": {
+    "message": "Lưu trang",
+    "description": "Tiêu đề menu ngữ cảnh để lưu trang."
+  },
+  "menuSaveLink": {
+    "message": "Lưu liên kết",
+    "description": "Tiêu đề menu ngữ cảnh để lưu liên kết."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "appName": {
+    "message": "Readmark",
+    "description": "Eklentinin adı."
+  },
+  "appDescription": {
+    "message": "Chromium tabanlı tarayıcılar için ultra hafif, gizlilik odaklı, yerel depolamalı ve çok dilli okuma listesi eklentisi.",
+    "description": "Eklentinin açıklaması."
+  },
+  "commandAddTab": {
+    "message": "Geçerli sekmeyi okuma listesine ekle",
+    "description": "Klavye kısayolu açıklaması."
+  },
+  "menuSavePage": {
+    "message": "Sayfayı kaydet",
+    "description": "Sağ tık menüsünde sayfayı kaydetme başlığı."
+  },
+  "menuSaveLink": {
+    "message": "Bağlantıyı kaydet",
+    "description": "Sağ tık menüsünde bağlantıyı kaydetme başlığı."
+  }
+}

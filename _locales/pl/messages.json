@@ -1,0 +1,22 @@
+{
+  "appName": {
+    "message": "Readmark",
+    "description": "Nazwa rozszerzenia."
+  },
+  "appDescription": {
+    "message": "Ultra-minimalistyczna lista do czytania z lokalnym zapisem i obsługą wielu języków dla przeglądarek Chromium.",
+    "description": "Opis rozszerzenia."
+  },
+  "commandAddTab": {
+    "message": "Dodaj bieżącą kartę do listy do czytania",
+    "description": "Opis skrótu klawiszowego."
+  },
+  "menuSavePage": {
+    "message": "Zapisz stronę",
+    "description": "Tytuł menu kontekstowego do zapisywania strony."
+  },
+  "menuSaveLink": {
+    "message": "Zapisz link",
+    "description": "Tytuł menu kontekstowego do zapisywania linku."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "appName": {
+    "message": "Readmark",
+    "description": "Naam van de extensie."
+  },
+  "appDescription": {
+    "message": "Ultra-minimale, privacygerichte leeslijst met lokale opslag en meertalige ondersteuning voor Chromium-browsers.",
+    "description": "Beschrijving van de extensie."
+  },
+  "commandAddTab": {
+    "message": "Huidig tabblad toevoegen aan leeslijst",
+    "description": "Beschrijving van sneltoets."
+  },
+  "menuSavePage": {
+    "message": "Pagina opslaan",
+    "description": "Contextmenu-titel voor het opslaan van pagina."
+  },
+  "menuSaveLink": {
+    "message": "Link opslaan",
+    "description": "Contextmenu-titel voor het opslaan van link."
+  }
+}

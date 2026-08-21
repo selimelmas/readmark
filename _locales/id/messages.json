@@ -1,0 +1,22 @@
+{
+  "appName": {
+    "message": "Readmark",
+    "description": "Nama ekstensi."
+  },
+  "appDescription": {
+    "message": "Daftar bacaan ultra-minimalis dan ramah privasi dengan penyimpanan lokal dan dukungan multi-bahasa untuk peramban Chromium.",
+    "description": "Deskripsi ekstensi."
+  },
+  "commandAddTab": {
+    "message": "Tambahkan tab saat ini ke daftar bacaan",
+    "description": "Deskripsi pintasan keyboard."
+  },
+  "menuSavePage": {
+    "message": "Simpan halaman",
+    "description": "Judul menu konteks untuk menyimpan halaman."
+  },
+  "menuSaveLink": {
+    "message": "Simpan tautan",
+    "description": "Judul menu konteks untuk menyimpan tautan."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "appName": {
+    "message": "Readmark",
+    "description": "Nom de l'extension."
+  },
+  "appDescription": {
+    "message": "Liste de lecture ultra-légère et respectueuse de la vie privée avec stockage local et support multilingue pour les navigateurs Chromium.",
+    "description": "Description de l'extension."
+  },
+  "commandAddTab": {
+    "message": "Ajouter l'onglet actuel à la liste de lecture",
+    "description": "Description du raccourci clavier."
+  },
+  "menuSavePage": {
+    "message": "Enregistrer la page",
+    "description": "Titre du menu contextuel pour enregistrer la page."
+  },
+  "menuSaveLink": {
+    "message": "Enregistrer le lien",
+    "description": "Titre du menu contextuel pour enregistrer un lien."
+  }
+}

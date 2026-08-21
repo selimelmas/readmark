@@ -1,0 +1,22 @@
+{
+  "appName": {
+    "message": "Readmark",
+    "description": "Tilläggets namn."
+  },
+  "appDescription": {
+    "message": "Ultra-minimalistisk läslista med lokal lagring och stöd för flera språk för Chromium-webbläsare.",
+    "description": "Beskrivning av tillägget."
+  },
+  "commandAddTab": {
+    "message": "Lägg till aktuell flik i läslistan",
+    "description": "Beskrivning av kortkommando."
+  },
+  "menuSavePage": {
+    "message": "Spara sida",
+    "description": "Kontextmenyns rubrik för att spara sida."
+  },
+  "menuSaveLink": {
+    "message": "Spara länk",
+    "description": "Kontextmenyns rubrik för att spara länk."
+  }
+}

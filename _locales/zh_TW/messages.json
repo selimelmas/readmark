@@ -1,0 +1,22 @@
+{
+  "appName": {
+    "message": "Readmark",
+    "description": "擴充功能名稱。"
+  },
+  "appDescription": {
+    "message": "專為 Chromium 瀏覽器打造的極簡、注重隱私的本機閱讀清單，支援多語言。",
+    "description": "擴充功能說明。"
+  },
+  "commandAddTab": {
+    "message": "將目前分頁加入閱讀清單",
+    "description": "快捷鍵說明。"
+  },
+  "menuSavePage": {
+    "message": "儲存頁面",
+    "description": "右鍵選單儲存頁面標題。"
+  },
+  "menuSaveLink": {
+    "message": "儲存連結",
+    "description": "右鍵選單儲存連結標題。"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "appName": {
+    "message": "Readmark",
+    "description": "扩展程序名称。"
+  },
+  "appDescription": {
+    "message": "专为 Chromium 浏览器打造的极简、注重隐私的本地阅读清单，支持多语言。",
+    "description": "扩展程序说明。"
+  },
+  "commandAddTab": {
+    "message": "将当前标签页添加到阅读清单",
+    "description": "快捷键说明。"
+  },
+  "menuSavePage": {
+    "message": "保存页面",
+    "description": "右键菜单保存页面标题。"
+  },
+  "menuSaveLink": {
+    "message": "保存链接",
+    "description": "右键菜单保存链接标题。"
+  }
+}

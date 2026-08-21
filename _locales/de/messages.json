@@ -1,0 +1,22 @@
+{
+  "appName": {
+    "message": "Readmark",
+    "description": "Name der Erweiterung."
+  },
+  "appDescription": {
+    "message": "Ultra-minimale, datenschutzorientierte Leseliste mit lokaler Speicherung und mehrsprachiger Unterstützung für Chromium-Browser.",
+    "description": "Beschreibung der Erweiterung."
+  },
+  "commandAddTab": {
+    "message": "Aktuellen Tab zur Leseliste hinzufügen",
+    "description": "Beschreibung für Tastenkürzel."
+  },
+  "menuSavePage": {
+    "message": "Seite speichern",
+    "description": "Kontextmenüeintrag zum Speichern der Seite."
+  },
+  "menuSaveLink": {
+    "message": "Link speichern",
+    "description": "Kontextmenüeintrag zum Speichern eines Links."
+  }
+}

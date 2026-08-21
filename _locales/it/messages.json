@@ -1,0 +1,22 @@
+{
+  "appName": {
+    "message": "Readmark",
+    "description": "Nome dell'estensione."
+  },
+  "appDescription": {
+    "message": "Elenco di lettura ultra-minimale e orientato alla privacy con archiviazione locale e supporto multilingue per browser Chromium.",
+    "description": "Descrizione dell'estensione."
+  },
+  "commandAddTab": {
+    "message": "Aggiungi scheda corrente all'elenco di lettura",
+    "description": "Descrizione della scorciatoia da tastiera."
+  },
+  "menuSavePage": {
+    "message": "Salva pagina",
+    "description": "Titolo del menu contestuale per salvare la pagina."
+  },
+  "menuSaveLink": {
+    "message": "Salva link",
+    "description": "Titolo del menu contestuale per salvare un link."
+  }
+}

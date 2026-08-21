@@ -1,0 +1,22 @@
+{
+  "appName": {
+    "message": "Readmark",
+    "description": "اسم الإضافة."
+  },
+  "appDescription": {
+    "message": "قائمة قراءة فائقة البساطة ومهتمة بالخصوصية مع تخزين محلي ودعم متعدد اللغات لمتصفحات Chromium.",
+    "description": "وصف الإضافة."
+  },
+  "commandAddTab": {
+    "message": "إضافة علامة التبويب الحالية إلى قائمة القراءة",
+    "description": "وصف اختصار لوحة المفاتيح."
+  },
+  "menuSavePage": {
+    "message": "حفظ الصفحة",
+    "description": "عنوان قائمة السياق لحفظ الصفحة."
+  },
+  "menuSaveLink": {
+    "message": "حفظ الرابط",
+    "description": "عنوان قائمة السياق لحفظ الرابط."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "appName": {
+    "message": "Readmark",
+    "description": "The name of the extension."
+  },
+  "appDescription": {
+    "message": "Ultra-minimal, privacy-first reading list with local storage and multilingual support for Chromium browsers.",
+    "description": "The description of the extension."
+  },
+  "commandAddTab": {
+    "message": "Add current tab to reading list",
+    "description": "Description for the keyboard shortcut command."
+  },
+  "menuSavePage": {
+    "message": "Save page",
+    "description": "Context menu title for saving the current page."
+  },
+  "menuSaveLink": {
+    "message": "Save link",
+    "description": "Context menu title for saving a link."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "appName": {
+    "message": "Readmark",
+    "description": "एक्सटेंशन का नाम।"
+  },
+  "appDescription": {
+    "message": "Chromium ब्राउज़र के लिए स्थानीय स्टोरेज और बहुभाषी समर्थन वाली अत्यंत न्यूनतम, गोपनीयता-केंद्रित पठन सूची।",
+    "description": "एक्सटेंशन का विवरण।"
+  },
+  "commandAddTab": {
+    "message": "वर्तमान टैब को पठन सूची में जोड़ें",
+    "description": "कीबोर्ड शॉर्टकट विवरण।"
+  },
+  "menuSavePage": {
+    "message": "पेज सहेजें",
+    "description": "पेज सहेजने के लिए संदर्भ मेनू शीर्षक।"
+  },
+  "menuSaveLink": {
+    "message": "लिंक सहेजें",
+    "description": "लिंक सहेजने के लिए संदर्भ मेनू शीर्षक।"
+  }
+}

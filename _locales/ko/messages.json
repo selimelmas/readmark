@@ -1,0 +1,22 @@
+{
+  "appName": {
+    "message": "Readmark",
+    "description": "확장 프로그램 이름."
+  },
+  "appDescription": {
+    "message": "Chromium 브라우저를 위한 초경량, 개인정보 보호 중심의 로컬 읽기 목록 확장 프로그램.",
+    "description": "확장 프로그램 설명."
+  },
+  "commandAddTab": {
+    "message": "현재 탭을 읽기 목록에 추가",
+    "description": "단축키 설명."
+  },
+  "menuSavePage": {
+    "message": "페이지 저장",
+    "description": "컨텍스트 메뉴 페이지 저장 제목."
+  },
+  "menuSaveLink": {
+    "message": "링크 저장",
+    "description": "컨텍스트 메뉴 링크 저장 제목."
+  }
+}
